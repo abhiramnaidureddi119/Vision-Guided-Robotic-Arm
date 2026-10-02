@@ -30,29 +30,30 @@ The robotic arm then moves to the target location, performs the pick operation, 
 
 ## System Workflow
 
+```text
 Webcam
-|
-v
+  |
+  v
 Image Acquisition
-|
-v
+  |
+  v
 OpenCV Processing
-|
-v
+  |
+  v
 Color / Object Detection
-|
-v
+  |
+  v
 Python Robot Control
-|
-v
+  |
+  v
 ZeroMQ Remote API
-|
-v
+  |
+  v
 CoppeliaSim
-|
-v
+  |
+  v
 UR5 Robotic Arm
-|
-v
+  |
+  v
 Pick and Place
 
