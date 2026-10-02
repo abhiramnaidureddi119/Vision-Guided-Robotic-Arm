@@ -32,28 +32,20 @@ The robotic arm then moves to the target location, performs the pick operation, 
 
 ```text
 Webcam
-  |
-  v
+   ↓
 Image Acquisition
-  |
-  v
+   ↓
 OpenCV Processing
-  |
-  v
+   ↓
 Color / Object Detection
-  |
-  v
+   ↓
 Python Robot Control
-  |
-  v
+   ↓
 ZeroMQ Remote API
-  |
-  v
+   ↓
 CoppeliaSim
-  |
-  v
+   ↓
 UR5 Robotic Arm
-  |
-  v
+   ↓
 Pick and Place
 
