@@ -28,41 +28,31 @@ The robotic arm then moves to the target location, performs the pick operation, 
 | Lua | Robot-side simulation control |
 | ZeroMQ Remote API | Python–CoppeliaSim communication |
 
-\## ⚙️ System Workflow
-
-```text
+## System Workflow
 
 Webcam
-
-&#x20;  ↓
-
+|
+v
 Image Acquisition
-
-&#x20;  ↓
-
+|
+v
 OpenCV Processing
-
-&#x20;  ↓
-
+|
+v
 Color / Object Detection
-
-&#x20;  ↓
-
+|
+v
 Python Robot Control
-
-&#x20;  ↓
-
+|
+v
 ZeroMQ Remote API
-
-&#x20;  ↓
-
+|
+v
 CoppeliaSim
-
-&#x20;  ↓
-
+|
+v
 UR5 Robotic Arm
-
-&#x20;  ↓
-
+|
+v
 Pick and Place
 
